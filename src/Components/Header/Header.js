@@ -17,25 +17,25 @@ const Header = () => {
             }
             </div>
                
-            <ul className={`md:flex p-5  md:static absolute ${open ? 'top-100' : 'top-[-220px]'} duration-500 ease-in }`}>
+            <ul className={`md:flex p-5 justify-between  md:static absolute ${open ? 'top-100' : 'top-[-220px]'} duration-500 ease-in }`}>
             
-            <div className="grid grid-cols-5">
+           
 
-            <div className="col-span-4">
+            <div className=" hidden lg:block">
             <a className="w-full font-bold text-xl sm:text-3xl block ">
               <span class="text-orange-300"> Quiz. </span> Jon
             </a>
           </div>
 
-            <div className="col-span-1 flex gap-6">
+            <div className=" flex  gap-6">
                 <Link className='text-xl text-orange-400' to='/'>Home</Link>
+                <Link className='text-xl text-orange-400' to='/topics'>Topics</Link>
                 <Link className='text-xl text-orange-400' to='/statistics'>Statistics</Link>
                 <Link className='text-xl text-orange-400' to='/blog'>Blog</Link>   
             </div>
 
 
 
-            </div>
               
                
          </ul>

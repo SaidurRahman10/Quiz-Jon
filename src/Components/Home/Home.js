@@ -1,5 +1,5 @@
 import React from 'react';
-import header from '../../img/header.jpg'
+import header from '../../img/header3.jpg'
 
 
 
@@ -17,8 +17,8 @@ const Home = () => {
            
         
           
-          <div className="">
-          <img src={header} alt="" />
+          <div className="mt-10 ">
+          <img className=' rounded-lg' src={header} alt="" />
           </div>
          
   

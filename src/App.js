@@ -3,6 +3,7 @@ import "./App.css";
 import Blog from "./Components/Blog/Blog";
 import Home from "./Components/Home/Home";
 import Statistics from "./Components/Statistics/Statistics";
+import Topics from "./Components/Topics/Topics";
 import Main from "./layout/Main";
 function App() {
   const router = createBrowserRouter([
@@ -11,6 +12,7 @@ function App() {
       element: <Main></Main>,
       children: [
         { path: "/", element: <Home></Home> },
+        {path:"/topics",element:<Topics></Topics>},
         {path:'/statistics', element:<Statistics></Statistics>},
         {path:'/blog', element:<Blog></Blog>},
       
