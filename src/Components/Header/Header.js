@@ -29,6 +29,7 @@ const Header = () => {
 
             <div className=" flex  flex-col md:flex-row gap-6">
                 <Link className='text-xl text-orange-400' to='/'>Home</Link>
+                <Link className='text-xl text-orange-400' to='/topics'>Topics</Link>
             
                 <Link className='text-xl text-orange-400' to='/statistics'>Statistics</Link>
                 <Link className='text-xl text-orange-400' to='/blog'>Blog</Link>   

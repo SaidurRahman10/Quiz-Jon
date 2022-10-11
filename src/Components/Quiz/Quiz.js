@@ -9,6 +9,7 @@ const Quiz = ({quiz}) => {
     const handelClick = () =>{
 
         navigate(`home/${id}`)
+        navigate(`/home/${id}`)
     }
 
     return (

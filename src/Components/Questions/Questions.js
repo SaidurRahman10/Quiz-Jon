@@ -4,9 +4,11 @@ const Questions = ({questions}) => {
 
     console.log(questions);
     const {question,correctAnswer,options} = questions;
+
+   
    
     return (
-        <div className='text-center flex flex-col justify-center items-center shadow-lg pb-10 rounded-3xl'>
+        <div className='text-center flex flex-col justify-center items-center shadow-lg p-10 pb-10 rounded-3xl'>
             
             <h1 className='text-2xl  w-1/2 my-10 font-bold text-orange-600'>Quiz:  {question}</h1>
 
