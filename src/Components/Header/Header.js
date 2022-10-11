@@ -21,7 +21,7 @@ const Header = () => {
             
            
 
-            <div className=" hidden lg:block">
+            <div className=" hidden md:block">
             <a className="w-full font-bold text-xl sm:text-3xl block ">
               <span className="text-orange-300"> Quiz. </span> Jon
             </a>

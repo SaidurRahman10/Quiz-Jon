@@ -13,13 +13,13 @@ const Home = () => {
     
     
     return (
-        <div style={{margin:'0px 5rem'}} className="">
+        <div  className="px-8 md:px-12">
 
 
-        <div className='grid grid-cols-2' >
+        <div className='grid grid-cols-1 md:grid-cols-2' >
 
-           <div className="">
-            <h1 className='text-6xl mt-32 font-bold  leading tracking-wide opacity-82 mb-20'>The Smarter <br /> Way to Learn is<br />  <span className=' text-6xl text-orange-400'> Practicing QUIZ.</span></h1>
+           <div className="px-10">
+            <h1 className='text-4xl md:text-6xl mt-32 font-bold  leading tracking-wide opacity-82 mb-20'>The Smarter <br /> Way to Learn is<br />  <span className=' md:text-6xl text-5xl text-orange-400'> Practicing QUIZ.</span></h1>
 
          </div>
            

@@ -13,8 +13,8 @@ const QuizDetails = () => {
 
     
     return (
-        <div className=' mx-36 mt-16 mb-12'>
-            <h1 className='text-center text-4xl font-bold text-orange-400'>Quiz of {name} </h1>
+        <div className=' md:mx-24 lg:mx-36 my-10  '>
+            <h1 className='text-center text-4xl font-bold text-orange-400 mb-10'>Quiz of {name} </h1>
         
 
        <div className="">
