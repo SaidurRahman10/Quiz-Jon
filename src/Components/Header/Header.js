@@ -23,13 +23,13 @@ const Header = () => {
 
             <div className=" hidden lg:block">
             <a className="w-full font-bold text-xl sm:text-3xl block ">
-              <span class="text-orange-300"> Quiz. </span> Jon
+              <span className="text-orange-300"> Quiz. </span> Jon
             </a>
           </div>
 
-            <div className=" flex  gap-6">
+            <div className=" flex  flex-col md:flex-row gap-6">
                 <Link className='text-xl text-orange-400' to='/'>Home</Link>
-                <Link className='text-xl text-orange-400' to='/topics'>Topics</Link>
+            
                 <Link className='text-xl text-orange-400' to='/statistics'>Statistics</Link>
                 <Link className='text-xl text-orange-400' to='/blog'>Blog</Link>   
             </div>
