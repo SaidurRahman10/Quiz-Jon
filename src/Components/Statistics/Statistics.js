@@ -8,31 +8,31 @@ const Statistics = () => {
         {
             name: 'Page A',
             marks: 4000,
-            quiz: 2400,
+            quiz: 8,
             amt: 2400,
         },
         {
             name: 'Page B',
             marks: 3000,
-            quiz: 1398,
+            quiz: 9,
             amt: 2210,
         },
         {
             name: 'Page C',
             marks: 2000,
-            quiz: 9800,
+            quiz: 8,
             amt: 2290,
         },
         {
             name: 'Page D',
             marks: 2780,
-            quiz: 3908,
+            quiz: 11,
             amt: 2000,
         }];
     return (
         <div className='flex justify-center mt-10'>
             <LineChart width={500} height={400} data={data}>
-                <Line type="monotone" dataKey="marks" stroke="#FECC81" />
+                <Line type="monotone" dataKey="quiz" stroke="#FECC81" />
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip />
