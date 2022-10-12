@@ -17,7 +17,7 @@ const Header = () => {
             }
             </div>
                
-            <ul className={`md:flex p-5 justify-between  md:static absolute ${open ? 'top-70' : 'top-[-420px]'} duration-500 ease-in }`}>
+            <ul className={`md:flex p-5 justify-between z-50  md:static absolute ${open ? 'top-70' : 'top-[-420px]'} duration-500 ease-in }`}>
             
            
 
