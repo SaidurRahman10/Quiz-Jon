@@ -7,7 +7,7 @@ const ErrorPage = () => {
            
 <section className="bg-blue-400 py-[120px]  ">
    <div className="container">
-      <div className="flex -mx-4">
+      <div className="flex ">
          <div className="w-full px-4">
             <div className="mx-auto max-w-[400px] text-center">
                <h2
@@ -24,7 +24,7 @@ const ErrorPage = () => {
                   404
                </h2>
                <h4
-                  className="text-white font-semibold text-[22px] leading-tight mb-3"
+                  className="text-white font-semibold   mb-3"
                   >
                   Oops! That page can’t be found
                </h4>
@@ -43,7 +43,7 @@ const ErrorPage = () => {
                   py-3
                   hover:bg-white hover:text-black
                   transition
-                  " to='/home'>Go to Home</Link>
+                  " to='/'>Go to Home</Link>
             </div>
          </div>
       </div>

@@ -5,7 +5,7 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis , Tooltip } from 'recharts
 const Statistics = () => {
 
     const totalQuizQuestion = useLoaderData().data;
-    console.log(totalQuizQuestion);
+    
 
   const quizQ =    totalQuizQuestion.map(quizQuestion =>  quizQuestion.total)
 
