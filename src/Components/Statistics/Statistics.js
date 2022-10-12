@@ -36,13 +36,26 @@ const Statistics = () => {
             amt: 2000,
         }];
     return (
-        <div className='flex justify-center mt-10'>
+        <div className="flex justify-center">
+
+        <div className=' mt-10 hidden md:block'>
             <LineChart width={500} height={400} data={data}>
                 <Line type="monotone" dataKey="quiz" stroke="#FECC81" />
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip />
             </LineChart>
+        </div>
+
+
+        <div className=' mt-10 md:hidden'>
+            <LineChart width={300} height={250} data={data}>
+                <Line type="monotone" dataKey="quiz" stroke="#FECC81" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+            </LineChart>
+        </div>
         </div>
     );
 };
