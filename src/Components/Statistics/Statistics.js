@@ -4,29 +4,35 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis , Tooltip } from 'recharts
 
 const Statistics = () => {
 
+    const totalQuizQuestion = useLoaderData().data;
+    console.log(totalQuizQuestion);
+
+  const quizQ =    totalQuizQuestion.map(quizQuestion =>  quizQuestion.total)
+
+
     const data = [
         {
-            name: 'Page A',
+            name: 'React',
             marks: 4000,
-            quiz: 8,
+            quiz: quizQ[0],
             amt: 2400,
         },
         {
-            name: 'Page B',
+            name: 'JS',
             marks: 3000,
-            quiz: 9,
+            quiz: quizQ[1],
             amt: 2210,
         },
         {
-            name: 'Page C',
-            marks: 2000,
+            name: 'CSS',
+            marks: quizQ[2],
             quiz: 8,
             amt: 2290,
         },
         {
-            name: 'Page D',
+            name: 'Git',
             marks: 2780,
-            quiz: 11,
+            quiz: quizQ[3],
             amt: 2000,
         }];
     return (

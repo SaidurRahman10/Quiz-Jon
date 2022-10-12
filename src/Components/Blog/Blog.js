@@ -7,24 +7,13 @@ const Blog = () => {
 
          
 <section
-   x-data="
-   {
-   openFaq1: false, 
-   openFaq2: false, 
-   openFaq3: false, 
-   openFaq4: false, 
-   openFaq5: false, 
-   openFaq6: false
-   }
-   "
+
    className="
    bg-white
    pt-20
    lg:pt-[120px]
    pb-12
    lg:pb-[90px]
-   relative
-   z-20
    overflow-hidden
    "
    >
